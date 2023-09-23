@@ -11,10 +11,5 @@ def main(page: ft.Page):
         page.update()
         time.sleep(1)
         
-    page.add(
-        ft.Row(controls=[
-            ft.Text("A")
-        ])
-    )
 
 ft.app(target=main)
